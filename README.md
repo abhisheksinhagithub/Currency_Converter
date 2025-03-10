@@ -43,7 +43,7 @@ A simple and interactive web-based currency converter that allows users to conve
    - Sign up at [ExchangeRate-API](https://www.exchangerate-api.com/) to get your free API key.
    - Replace the placeholder API key in the ```script.js``` file with your actual API key:
       ```bash
-      const BASE_URL = "https://v6.exchangerate-api.com/v6/YOUR_API_KEY/pair";
+      const BASE_URL = "https://v6.exchangerate-api.com/v6/YOUR_API_KEY/pair"
 
 4. **Open the Project**:
    - Open the ```index.html``` file in your web browser to view the currency converter.
