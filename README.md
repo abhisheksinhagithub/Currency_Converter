@@ -32,22 +32,33 @@ A simple and interactive web-based currency converter that allows users to conve
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/abhisheksinhagithub/.git
+   git clone https://github.com/abhisheksinhagithub/Currency_Converter.git
 
 2. **Navigate to the project directory**:
    ```bash
-   cd Stone-Paper-Scissors-Game
+   cd Currency_Converter
 
-3. **Open the game**:
+3. **Get an API Key**:
 
-    - Open the ```index.html``` file in your browser.
-    - Alternatively, use a live server extension in your code editor.
+   - Sign up at [ExchangeRate-API](https://www.exchangerate-api.com/) to get your free API key.
+   - Replace the placeholder API key in the ```script.js``` file with your actual API key:
+      ```bash
+      const BASE_URL = "https://v6.exchangerate-api.com/v6/YOUR_API_KEY/pair";
+
+4. **Open the Project**:
+   - Open the ```index.html``` file in your web browser to view the currency converter.
+
+5. **Usage**:
+   - Enter the amount you want to convert.
+   - Select the "from" and "to" currencies from the dropdown menus.
+   - Click the "Get Exchange Rate" button to see the converted amount.
+   - Use the exchange icon (↔️) to swap the "from" and "to" currencies.
 
 
 
 ## File Structure
 ```
-currency-converter/
+Currency_Converter/
 │
 ├── index.html          # Main HTML file
 ├── style.css           # CSS styles for the project
@@ -74,9 +85,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 - [ExchangeRate-API](https://www.exchangerate-api.com/) for providing the currency exchange data.
-
 - [Font Awesome](https://fontawesome.com/) for the icons used in the project.
-
 - [FlagsAPI](https://flagsapi.com/) for the country flag images.
 
 
